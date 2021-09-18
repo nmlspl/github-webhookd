@@ -1,6 +1,8 @@
-module github.com/gasiordev/github-webhookd
+module github.com/gen64/github-webhookd
+
+go 1.17
 
 require (
-	github.com/gasiordev/go-cli v0.1.4
-	github.com/gorilla/mux v1.7.4
+	github.com/gen64/go-cli v0.4.0
+	github.com/gorilla/mux v1.8.0
 )
